@@ -1,4 +1,4 @@
-# Obsidian Auto Link Title
+# Obsidian Plugin for Auto-Load a Link Title
 ![Auto linking example](auto-link-title.gif)
 
 ## What the difference to the original implantation?
