@@ -1,7 +1,7 @@
 # Obsidian Plugin for Auto-Load a Link Title
 ![Auto linking example](auto-link-title.gif)
 
-## What the difference to the original implantation?
+## What the difference to the original implantation? 🤨
 
 This project is forked from [obsidianmd/obsidian-sample-plugin](https://github.com/zolrath/obsidian-auto-link-title) and has several benefirs over the original implementation:
 
