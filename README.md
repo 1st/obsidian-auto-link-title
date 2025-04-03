@@ -1,5 +1,12 @@
-## Obsidian Auto Link Title
+# Obsidian Auto Link Title
 ![Auto linking example](auto-link-title.gif)
+
+## What the difference to the original implantation?
+
+This project is forked from [obsidianmd/obsidian-sample-plugin](https://github.com/zolrath/obsidian-auto-link-title) and has several benefirs over the original implementation:
+
+1. We do not use the external service `api.linkpreview.net` to get web page title. Instead we load the original page and extract `<title>` from it's HTML structure
+2. We reviewed this plugin, to ensure it's no lack of personal inforation from the plugin to outside. It was the main reason to fork and have a frozen version of the plugin, to be sure that it won't have some update that may hurt your personal notes
 
 ### Automatically Title New Links
 This plugin automatically fetches the webpage to extract link titles when they're pasted, creating a markdown link with the correct title set.
